@@ -1,0 +1,244 @@
+FILE: ======== lsass.DMP =======
+== LogonSession ==
+authentication_id 34805845 (2131855)
+session_id 0
+username Randark
+domainname DESKTOP-17U12LV
+logon_server DESKTOP-17U12LV
+logon_time 2023-07-30T13:51:16.375865+00:00
+sid S-1-5-21-1535222985-3184746424-1546251793-1000
+luid 34805845
+
+== LogonSession ==
+authentication_id 326148 (4fa04)
+session_id 1
+username Randark
+domainname DESKTOP-17U12LV
+logon_server DESKTOP-17U12LV
+logon_time 2023-07-30T06:07:50.058665+00:00
+sid S-1-5-21-1535222985-3184746424-1546251793-1000
+luid 326148
+	== MSV ==
+		Username: Randark
+		Domain: DESKTOP-17U12LV
+		LM: NA
+		NT: 3dbde697d71690a769204beb12283678
+		SHA1: 0d5399508427ce79556cda71918020c1e8d15b53
+		DPAPI: NA
+	== WDIGEST [4fa04]==
+		username Randark
+		domainname DESKTOP-17U12LV
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: Randark
+		Domain: DESKTOP-17U12LV
+	== WDIGEST [4fa04]==
+		username Randark
+		domainname DESKTOP-17U12LV
+		password None
+		password (hex)
+	== CREDMAN [4fa04]==
+		luid 326148
+		username randark
+		domain ssh@192.168.20.202:22/randark
+		password 1a05cf83-e450-4fbf-a2a8-b9fd2bd37d4e
+		password (hex)310061003000350063006600380033002d0065003400350030002d0034006600620066002d0061003200610038002d00620039006600640032006200640033003700640034006500
+	== DPAPI [4fa04]==
+		luid 326148
+		key_guid de5d1d8b-b777-405c-82a8-e539b92207ad
+		masterkey 8d07f338c96b0a6bcd12dde67d73bfbeac85c2aec4ad57c3bf52ccd8c6a274f86884a8ee9d1c5650de782f6e809ac3075ca421d873bad39bbf292061df709243
+		sha1_masterkey d77e86138ecff1b00a5afa6910ffd574a28263b1
+	== DPAPI [4fa04]==
+		luid 326148
+		key_guid e2d66d9b-6ba5-4fdf-b228-a422fe0cb924
+		masterkey bf001316eed98e84ea57505455090aaab2c4329f1c810d194debac00bf14a7de519e1e0de24609388d274ac28e32bc5cc3e70f15d9e46bc9c4851f4212d0fb78
+		sha1_masterkey c0cc60c404246d9c80d7f8f920ad569b0b614f97
+
+== LogonSession ==
+authentication_id 326072 (4f9b8)
+session_id 1
+username Randark
+domainname DESKTOP-17U12LV
+logon_server DESKTOP-17U12LV
+logon_time 2023-07-30T06:07:50.058665+00:00
+sid S-1-5-21-1535222985-3184746424-1546251793-1000
+luid 326072
+	== MSV ==
+		Username: Randark
+		Domain: DESKTOP-17U12LV
+		LM: NA
+		NT: 3dbde697d71690a769204beb12283678
+		SHA1: 0d5399508427ce79556cda71918020c1e8d15b53
+		DPAPI: NA
+	== WDIGEST [4f9b8]==
+		username Randark
+		domainname DESKTOP-17U12LV
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: Randark
+		Domain: DESKTOP-17U12LV
+		Password: 123
+		password (hex)3100320033000000
+	== WDIGEST [4f9b8]==
+		username Randark
+		domainname DESKTOP-17U12LV
+		password None
+		password (hex)
+	== CREDMAN [4f9b8]==
+		luid 326072
+		username randark
+		domain ssh@192.168.20.202:22/randark
+		password 1a05cf83-e450-4fbf-a2a8-b9fd2bd37d4e
+		password (hex)310061003000350063006600380033002d0065003400350030002d0034006600620066002d0061003200610038002d00620039006600640032006200640033003700640034006500
+
+== LogonSession ==
+authentication_id 997 (3e5)
+session_id 0
+username LOCAL SERVICE
+domainname NT AUTHORITY
+logon_server 
+logon_time 2023-07-30T06:07:45.089681+00:00
+sid S-1-5-19
+luid 997
+	== Kerberos ==
+		Username: 
+		Domain: 
+
+== LogonSession ==
+authentication_id 90601 (161e9)
+session_id 1
+username DWM-1
+domainname Window Manager
+logon_server 
+logon_time 2023-07-30T06:07:44.995894+00:00
+sid S-1-5-90-0-1
+luid 90601
+	== WDIGEST [161e9]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [161e9]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 90583 (161d7)
+session_id 1
+username DWM-1
+domainname Window Manager
+logon_server 
+logon_time 2023-07-30T06:07:44.995894+00:00
+sid S-1-5-90-0-1
+luid 90583
+	== WDIGEST [161d7]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [161d7]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 996 (3e4)
+session_id 0
+username DESKTOP-17U12LV$
+domainname WORKGROUP
+logon_server 
+logon_time 2023-07-30T06:07:44.917876+00:00
+sid S-1-5-20
+luid 996
+	== WDIGEST [3e4]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: desktop-17u12lv$
+		Domain: WORKGROUP
+	== WDIGEST [3e4]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 58461 (e45d)
+session_id 1
+username UMFD-1
+domainname Font Driver Host
+logon_server 
+logon_time 2023-07-30T06:07:44.808443+00:00
+sid S-1-5-96-0-1
+luid 58461
+	== WDIGEST [e45d]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [e45d]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 58462 (e45e)
+session_id 0
+username UMFD-0
+domainname Font Driver Host
+logon_server 
+logon_time 2023-07-30T06:07:44.808443+00:00
+sid S-1-5-96-0-0
+luid 58462
+	== WDIGEST [e45e]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== WDIGEST [e45e]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+
+== LogonSession ==
+authentication_id 57493 (e095)
+session_id 0
+username 
+domainname 
+logon_server 
+logon_time 2023-07-30T06:07:44.745915+00:00
+sid None
+luid 57493
+
+== LogonSession ==
+authentication_id 999 (3e7)
+session_id 0
+username DESKTOP-17U12LV$
+domainname WORKGROUP
+logon_server 
+logon_time 2023-07-30T06:07:44.714618+00:00
+sid S-1-5-18
+luid 999
+	== WDIGEST [3e7]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+	== Kerberos ==
+		Username: desktop-17u12lv$
+		Domain: WORKGROUP
+	== WDIGEST [3e7]==
+		username DESKTOP-17U12LV$
+		domainname WORKGROUP
+		password None
+		password (hex)
+

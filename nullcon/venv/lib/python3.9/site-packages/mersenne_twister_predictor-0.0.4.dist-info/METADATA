@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: mersenne-twister-predictor
+Version: 0.0.4
+Summary: predicts outputs of Mersenne Twister (MT19937), a pseudorandom number generator
+Home-page: https://github.com/kmyk/mersenne-twister-predictor
+Author: Kimiyuki Onaka
+Author-email: kimiyuki95@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
